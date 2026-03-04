@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Discover Cebu - Tourism Brochure</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f9ff;
+}
+
+header {
+    background: url('https://images.unsplash.com/photo-1583391733956-6c78276477e2') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 45px;
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.creator {
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+}
+
+.card p {
+    padding: 0 15px 15px;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #023e8a;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Discover Cebu</h1>
+    <p>The Queen City of the South</p>
+    <div class="creator">
+        Jovann T. Dela Vega <br>
+        Arellano SHS – Teacher <br>
+        Theme: Tourism
+    </div>
+</header>
+
+<div class="section">
+    <h2>Top Tourist Destinations</h2>
+
+    <div class="places">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1560347876-aeef00ee58a1" alt="Kawasan Falls">
+            <h3>Kawasan Falls</h3>
+            <p>Experience the refreshing turquoise waters and exciting canyoneering adventures.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429" alt="Oslob Whale Sharks">
+            <h3>Oslob Whale Sharks</h3>
+            <p>Swim alongside gentle whale sharks in this unforgettable marine experience.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5ce" alt="Magellan's Cross">
+            <h3>Magellan's Cross</h3>
+            <p>A historic landmark symbolizing the arrival of Christianity in the Philippines.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1549880338-65ddcdfd017b" alt="Bantayan Island">
+            <h3>Bantayan Island</h3>
+            <p>Relax on white sand beaches and enjoy peaceful island life.</p>
+        </div>
+
+    </div>
+
+    <br><br>
+    <button onclick="explore()">Start Exploring Cebu</button>
+
+</div>
+
+<footer>
+    <p>© 2026 Cebu Tourism Brochure</p>
+    <p>Created by Jovann T. Dela Vega | Arellano SHS – Teacher | Theme: Tourism</p>
+</footer>
+
+<script>
+function explore() {
+    alert("Welcome to Cebu! Enjoy exploring the Queen City of the South!");
+}
+</script>
+
+</body>
+</html>
